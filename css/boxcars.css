@@ -1,0 +1,271 @@
+html, * {
+	margin: 0;
+	padding: 0;
+}
+html {
+	height:100%;
+	font-family: Helvetica, sans-serif;
+}
+body {
+	height: 100%;
+	color: #ddd;
+	background: url('../img/denver_skyline.jpg') #1a1307 repeat-x center 0;
+	/* © denver_skyline.jpg
+	http://commons.wikimedia.org/wiki/File:2006-07-14-Denver_Skyline_Midnight.jpg
+	This file is licensed under the Creative Commons Attribution-Share Alike 2.5 Generic license: http://creativecommons.org/licenses/by-sa/2.5/deed.en
+	Author: Matt Wright */ 
+}
+a {
+	color: #ffe080;
+	text-decoration: none;
+}
+a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+h1 a {
+	color: #fff;
+}
+h1 a:hover {
+	text-decoration: none;
+}
+
+.center {
+	margin: 0 auto;
+	text-align: center;
+}
+.left {
+	text-align: left;
+}
+p small {
+	font-size: 90%;
+	line-height: 1.0em;
+	color: #ddd;
+}
+
+h1, h2, h3 {
+	font-family: 'Stoke', serif;
+}
+h2 {
+	font-size: 30px;
+	color: #fff0d0;
+	text-shadow: 0 0 40px #cc0;
+	text-align:center;
+	margin: 0 0 20px 0;
+	padding: 0;
+	position:relative;
+	top: -14px;
+}
+h3 {
+	color: #ffbc43;
+}
+
+#body {
+	position:relative;
+	width: 80%;
+	min-width: 480px;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#body.landing {
+	height: 100%;
+}
+
+#content {
+	margin-top: 140px;
+	background-color: rgba(0, 0, 0, 0.8);
+	box-shadow: 0 4px 8px #000;
+}
+#body.landing #content {
+	margin-top: 300px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.b {
+	padding: 0 10px;
+}
+
+#menu {
+	text-align:center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	border-bottom: 2px solid #f0f;
+	line-height: 2em;
+	padding: 10px 0;
+	background-color: rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0px 4px #000;
+}
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type:none;
+	font-family: 'Stoke', serif;
+	font-weight: normal;
+}
+#menu li {
+	display: inline-block;
+	min-width: 100px;
+	padding: 0 12px;
+}
+#menu li:hover {
+	color: #fff;
+	text-shadow: 0 0 16px #ffff00, 0 0 2px #ffff00;
+	cursor: pointer;
+}
+#menu a {
+	color: #fff;
+}
+#menu li a:hover {
+	border-bottom: 2px solid #ffbc43;
+	text-decoration: none;
+}
+#menu li.thispage a {
+	font-size: 120%;
+	color: #ffbc43;
+}
+
+#banner {
+	width: 100%;
+	text-align:center;
+	padding: 40px 0 40px 0;
+}
+#banner h1 {
+	font-weight: normal;
+	font-size: 60px;
+	line-height: 0.85em;
+	text-shadow: 0 0 40px #f0f, 0 0 6px #ffff00;
+	margin: 0;
+	z-index:10;
+}
+
+#numbers {
+	text-align:center;
+	font-family: Stoke, Georgia, serif;
+	font-size: 24px;
+}
+#numbers div {
+	color: #fff;
+	text-shadow: 0 0 10px #f0f, 0 0 6px #ffff00;
+	padding: 0.5em 0;
+	margin: 0.5em 0;
+	border-bottom: 2px solid #f0f;
+}
+#numbers a {
+	color: #fff;
+	text-shadow: 0 0 10px #f0f, 0 0 6px #ffff00;
+}
+#numbers a:hover {
+	text-decoration: none;
+}
+
+#intro {
+	padding: 4px 20px 100px 20px;
+}
+#intro p {
+	color: #eed;
+	font-family: Stoke, Georgia, serif;
+	text-align:justify;
+	margin: 1em 0 1em 0;
+}
+#intro p.first:first-line {
+	font-variant:small-caps;
+}
+#intro p:first-child:first-letter {
+	float: left;
+	font-family: Stoke, Georgia, serif;
+	font-size: 75px;
+	font-weight: normal;
+	padding: 6px 8px 0 1px;
+	color: #d9a039;
+	text-shadow: 0 0 2px #cc0;
+}
+
+#footer {
+	font-family: Arial, sans;
+	font-size: 70%;
+	color: #aaa;
+	padding: 8px 0;
+	margin: 40px 0 0 0;
+	width: 100%;
+	border-top: 1px solid #73551e;
+	text-align:right;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#footer:hover {
+	color: #fff;
+}
+
+address {
+	font-family: Stoke, Georgia, serif;
+	font-style: normal;
+	display:inline-block;
+	padding: 8px 16px;
+	font-size: 20px;
+	border-radius: 6px;
+	box-shadow: 0 0 80px #f0f;
+	background-color: #111;
+}
+.bb2 {
+	border: 2px solid #000;
+}
+.bls { /* Brand */
+	font-style:italic;
+}
+.licences {
+}
+
+.testimonial {
+	font-size: 14px;
+	border-top: 1px solid #220;
+	padding: 16px 0;
+}
+.testimonial-header {
+	font-weight: bold;
+}
+.testimonial-header .label {
+	font-weight: normal;
+	color: #aa8;
+}
+.testimonial-body {
+}
+
+#contacts {
+	font-size: 120%;
+}
+.contact-entry {
+	margin: 8px 0;
+}
+.fbtext {
+	width: 18px;
+	height: 18px;
+	margin: 0 0 4px 0.4em; 
+}
+
+textarea {
+	resize:both;
+}
+form table {
+	width: 100%;
+	border-spacing: 4px;
+	border-collapse: separate;
+}
+form table td {
+	padding: 4px;
+}
+form input.field, form textarea.field {
+	width: 100%;
+	border: none;
+	padding: 4px;
+}
+table.rates {
+}
+table.rates tr {
+}
+table.rates td {
+	border: 1px solid #333;
+	padding: 4px 10px;
+}
+#fleet img {
+	max-width: 100%;
+}
