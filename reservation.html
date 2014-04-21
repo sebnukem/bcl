@@ -56,7 +56,7 @@ if (isset($_POST["submit"])) {
 	$from = filter_var($_POST["email"], FILTER_SANITIZE_EMAIL);
 	if (filter_var($from, FILTER_SANITIZE_EMAIL)) {
 		// submitter email is valid
-		$to = "sebnukem@gmail.com"; // FIXME put the correct email address here boxcarslimo@gmail.com
+		$to = "boxcarslimo@gmail.com";
 		$headers = 'From: '.$email_from."\r\n" .
 			'CC: '.$from."\r\n" .
 			'Reply-To: '.$email_from."\r\n";
