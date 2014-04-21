@@ -173,6 +173,9 @@ h3 {
 #numbers a:hover {
 	text-decoration: none;
 }
+.nowrap {
+	white-space: nowrap;
+}
 
 #intro {
 	padding: 4px 20px 100px 20px;
@@ -335,7 +338,7 @@ table.list td {
 	padding: 4px 16px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 769px) {
 	#body {
 		width: 100%;
 	}
