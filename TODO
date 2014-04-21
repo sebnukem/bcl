@@ -39,14 +39,14 @@ TEST
 
 x test on Firefox
 x test on Chrome
-  test on Safari
+x test on Safari
 x test on iPad
-  test on fucking IE6 (just check Upgrade warning)
-  test on fucking IE7
-  test on fucking IE8
-  test on fucking IE9
-  test on fucking IE10
-  test on fucking IE11
+x test on fucking IE6 (just check Upgrade warning)
+x test on fucking IE7 (just check Upgrade warning)
+x test on fucking IE8
+x test on fucking IE9
+x test on annoying IE10
+  test on IE11
   test on iPhone
   test on Android phone
 
