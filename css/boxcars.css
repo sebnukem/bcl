@@ -1,3 +1,14 @@
+@font-face {
+    font-family: 'Stoke';
+    src: url('../fonts/stoke-light-webfont.eot');
+    src: url('../fonts/stoke-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/stoke-light-webfont.woff') format('woff'),
+         url('../fonts/stoke-light-webfont.ttf') format('truetype'),
+         url('../fonts/stoke-light-webfont.svg#stokelight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, * {
 	margin: 0;
 	padding: 0;
@@ -214,9 +225,11 @@ address {
 	box-shadow:         0 0 80px #f0f;
 	background-color: #111;
 }
+
 .bls { /* Brand */
 	font-style:italic;
 }
+
 .licences {
 }
 
@@ -321,3 +334,21 @@ table.rates td {
 table.list td {
 	padding: 4px 16px;
 }
+
+@media all and (max-width: 768px) {
+	#body {
+		width: 100%;
+	}
+	#menu li {
+		font-size: 14px;
+		min-width: 80px;
+		padding: 0 8px;
+	}
+	#banner h1 {
+		font-size: 50px;
+	}
+	#numbers {
+		font-size: 20px;
+	}
+}
+

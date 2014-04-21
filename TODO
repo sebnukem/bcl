@@ -5,7 +5,6 @@ TODO
   text section for each car
   content for each car page
   Rates: note about deposit/cancel and link
-  make Google fonts local
   cleanup unused code, js, css
 
 ? favicon?
@@ -33,6 +32,7 @@ x contact page
 x deposit/cancellation policy page
 x resize & compress all car pix (900w/75%q)
 x css browser extensions
+x make Google font Stoke local
 
 TEST
 
