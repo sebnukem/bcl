@@ -245,6 +245,11 @@ address {
 textarea {
 	resize:both;
 }
+.formnote {
+	font-size: 95%;
+	color: #999;
+	font-style:italic;
+}
 form table {
 	width: 100%;
 	border-spacing: 4px;
@@ -258,6 +263,45 @@ form input.field, form textarea.field {
 	border: none;
 	padding: 4px;
 }
+form input.button {
+	border: none;
+	padding: 6px 12px;
+	width: 120px;
+	font-weight:bold;
+}
+form input.button:hover {
+	background-color: #fa4;
+	color: #000;
+	text-shadow: 0 0 10px #ff0;
+}
+form table td.label {
+	text-align:right;
+	width: 25%;
+	vertical-align:top;
+}
+form table td.input {
+	width: 75%;
+}
+.required {
+	color: #f44;
+	padding: 0 8px;
+}
+.requirement {
+	color: #f44;
+}
+.submitfail {
+	font-size:120%;
+	color: #f88;
+}
+.submitok {
+	font-size:120%;
+}
+.submitfb {
+	border: 1px solid #333;
+	padding: 0 20px;
+	margin: 10px;
+}
+
 table.rates {
 }
 table.rates tr {
@@ -268,4 +312,7 @@ table.rates td {
 }
 #fleet img {
 	max-width: 100%;
+}
+table.list td {
+	padding: 4px 16px;
 }

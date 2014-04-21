@@ -11,25 +11,28 @@ x about page
 x testimonials page
 x fleet page
   text section for each car
-? car page x car #
+~ car page x 5
 x rates page
   rates: note about deposit/cancel and link
 x reservation page
-? reservation required fields & enforcement
-  reservation server side, email processor
-  reservation user feedback on submit (new page?)
+x reservation required fields & enforcement
+x reservation server side, email processor
+x reservation user feedback on submit (new page?)
+? reservation captcha
 x contact page
 ? airport service page
 x deposit/cancellation policy page
 ? note about 20% chauffeur fee
 
   favicon
+  make google fonts local
 
+  css browser extensions
   cleanup unused code, js, css
   test on fucking IE
   test on Chrome
 x test on Firefox
-  test on iPad
+x test on iPad
   test on iPhone
   test on Android phone
 
