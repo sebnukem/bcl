@@ -12,7 +12,7 @@ TODO
 ? Rates: note about 20% chauffeur fee?
 ? airport transportation service page?
 ? Reservation captcha?
-? cleanup Qwest off bg pic?
+? remove Qwest off bg pic?
 
 DONE
 
@@ -27,14 +27,14 @@ x fleet page
 x car page x 5
 x rates page
 x reservation page
-x reservation required fields & enforcement
-x reservation server side, email processor
-x reservation user feedback on submit (new page?)
+x reservation required fields & client-side enforcement
+x reservation server side processor & mailer
+x reservation user feedback on submit
 x contact page
 x deposit/cancellation policy page
-x resize & compress all car pix (900w/75%q)
+x resize & compress all car pix (900w,75%q)
 x css browser extensions
-x make Google font Stoke local
+x make Stoke font local, remove CDN link
 
 TEST
 
