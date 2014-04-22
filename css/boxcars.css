@@ -59,7 +59,7 @@ h1, h2, h3 {
 }
 h2 {
 	font-size: 30px;
-	color: #fff0d0;
+	color: #fff0d8;
 	text-shadow: 0 0 40px #cc0;
 	text-align:center;
 	margin: 0 0 20px 0;
@@ -331,7 +331,7 @@ table.rates td {
 	border: 1px solid #333;
 	padding: 4px 10px;
 }
-#fleet img {
+img.imgfit, .imgfit img {
 	max-width: 100%;
 }
 table.list td {
