@@ -118,10 +118,10 @@ if (isset($_POST["submit"])) {
 					<tr><td class="label"><label>Requested Vehicle:</label></td>
 					<td><select name="vehicle">
 						<option value="">pick one...</option>
-						<option value="x passenger Lexus LS 460">x Passenger Lexus LS 460</option>
-						<option value="x passenger Lincoln Town Car">x Passenger Lincoln Town Car</option>
+						<option value="Lexus LS 460">Lexus LS 460</option>
 						<option value="7 passenger Chevrolet Suburban">7 Passenger Chevrolet Suburban</option>
-						<option value="x passenger Lincoln Town Car">x passenger Lincoln Town Car</option>
+						<option value="10 passenger Lincoln Town Car">10 Passenger Lincoln Town Car</option>
+						<option value="12-14 passenger Mercedes Sprinter">12-14 Passenger Mercedes Sprinter</option>
 						<option value="25 passenger H2 Hummer">25 Passenger H2 Hummer</option>
 					</select></td></tr>
 
